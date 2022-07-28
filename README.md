@@ -7,18 +7,18 @@ Anyway, a long story short after about a week I got it working then decided to a
 
 # Features
 
-Create new drawing with your chosen size
-Open and Save Bitmaps and JPEGS
-Basic drawing tools
-Undo Option
-Lighten and Darken drawing
-Flip and rotate drawing
-Invert drawing
-Simple spray tool
-Fill and pen styles
-A nice colour picker that lets you set colour for foreground and background.
-Swap between the two colours
-Eraser tool
+- Create new drawing with your choosen size
+- Open and Save Bitmaps and JPEGS
+- Basic drawing tools
+- Undo Option
+- Lighten and Darken drawing
+- Flip and rotate drawing
+- Invert drawing
+- Simple spray tool
+- Fill and pen styles
+- A nice color picker that lets you set color for foreground and background.
+- Swap between the two colors
+- Eraser tool
 
 # Compiling
 To compile you will need the opensource Lazarus you can find it here
