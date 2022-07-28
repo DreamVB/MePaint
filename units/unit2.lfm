@@ -1,0 +1,90 @@
+object frmNew: TfrmNew
+  Left = 569
+  Height = 361
+  Top = 312
+  Width = 395
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'New Image'
+  ClientHeight = 361
+  ClientWidth = 395
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  Position = poOwnerFormCenter
+  LCLVersion = '2.2.2.0'
+  object SpWidth: TSpinEdit
+    Left = 32
+    Height = 33
+    Top = 80
+    Width = 150
+    TabOrder = 0
+    Value = 320
+  end
+  object lblWidth: TLabel
+    Left = 32
+    Height = 25
+    Top = 48
+    Width = 107
+    Caption = 'Image Width:'
+    ParentColor = False
+  end
+  object SpHeight: TSpinEdit
+    Left = 32
+    Height = 33
+    Top = 176
+    Width = 150
+    TabOrder = 1
+    Value = 300
+  end
+  object lblHeight: TLabel
+    Left = 32
+    Height = 25
+    Top = 144
+    Width = 112
+    Caption = 'Image Height:'
+    ParentColor = False
+  end
+  object lblBackground: TLabel
+    Left = 29
+    Height = 25
+    Top = 224
+    Width = 150
+    Caption = 'Image Background'
+    ParentColor = False
+  end
+  object cmdBackground: TColorButton
+    Left = 29
+    Height = 38
+    Top = 256
+    Width = 153
+    BorderWidth = 2
+    ButtonColorSize = 16
+    ButtonColor = clWhite
+  end
+  object Bevel1: TBevel
+    Left = 216
+    Height = 232
+    Top = 72
+    Width = 8
+    Shape = bsLeftLine
+  end
+  object cmdOK: TButton
+    Left = 240
+    Height = 38
+    Top = 72
+    Width = 113
+    Caption = 'OK'
+    Default = True
+    OnClick = cmdOKClick
+    TabOrder = 2
+  end
+  object cmdCancel: TButton
+    Left = 240
+    Height = 38
+    Top = 120
+    Width = 113
+    Caption = 'Cancel'
+    OnClick = cmdCancelClick
+    TabOrder = 3
+  end
+end
